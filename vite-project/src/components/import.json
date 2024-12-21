@@ -1,0 +1,32 @@
+{
+    "chats": [
+      {
+        "_id": "1",
+        "isGroupChat": false,
+        "chatName": "John Doe",
+        "users": [
+          { "_id": "2", "name": "John Doe" },
+          { "_id": "1", "name": "You" }
+        ],
+        "latestMessage": {
+          "sender": { "name": "John Doe" },
+          "content": "Hello, how are you?"
+        }
+      },
+      {
+        "_id": "2",
+        "isGroupChat": true,
+        "chatName": "Project Team",
+        "users": [
+          { "_id": "1", "name": "You" },
+          { "_id": "3", "name": "Alice" },
+          { "_id": "4", "name": "Bob" }
+        ],
+        "latestMessage": {
+          "sender": { "name": "Alice" },
+          "content": "Don't forget to submit the report!"
+        }
+      }
+    ]
+  }
+  
